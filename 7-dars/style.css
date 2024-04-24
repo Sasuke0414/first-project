@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #EDE6DD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.hero-left p {
+    margin-top: 25px;
+    height: 90px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    width: 448px;
+    height: 56px;
+    align-items: center;
+    border-radius: 30px;
+}
+.hero-btn button {
+    position: absolute;
+    left: 310px;
+    border-radius: 30px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+.hero-btn input {
+    position: absolute;
+    left: 20px;
+    border-radius: 30px;
+    outline: none;
+}
+.foto{
+    background-image: url(./images/image\ 1\(1\).png);
+    width: 1200px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.foto h1 {
+    font-size: 32px;
+    color: white;
+    margin-top: 50px;
+    
+}
+.foto p {
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+}
+.foto-btn{
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.how{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    background-color:  #FFD394;
+    padding: 50px 50px;
+    
+}
+.how-foto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-foto2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    background-color: white;
+    padding: 30px 30px;
+}
+.foot-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.foot-left h2 {
+    font-size: 18px;
+}
+.foot-left h1 {
+    font-size: 18px;
+}
+.foot-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+    ;
+
+}
+.foot-right h1 {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 28px;
+    font-size: 20px;
+}

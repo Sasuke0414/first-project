@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+/* .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: red; */
+/* animation-name: aylana; */
+/* animation-delay: 3s; */
+/* animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-fill-mode: both; */
+
+/* animation: aylana 3s ease-in-out infinite alternate-reverse running both;
+} */
+
+/* @keyframes aylana {
+  50% {
+    background-color: blue;
+    transform: rotate(360deg);
+  }
+  100% {
+    background-color: yellow;
+    transform: scale(5);
+    border-radius: 50%;
+  }
+} */
+
+.parent {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle1 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  /* border-radius: 50%; */ 
+  animation: aylana1 2s infinite ease-in-out alternate-reverse;
+}
+
+.circle2 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 255, 17);
+  /* border-radius: 50%; */
+  animation: aylana2 2s infinite ease-in-out alternate-reverse;
+} 
+
+@keyframes aylana1 {
+  50% {
+    transform: translate(350px) rotate(360deg);
+    background-color: yellow;
+    border-radius: 50%;
+  }
+}
+
+@keyframes aylana2 {
+  50% {
+    transform: translate(-350px) rotate(360deg);
+    background-color: blue;
+    border-radius: 50%;
+  }
+}

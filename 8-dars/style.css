@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kvadrat{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(72, 72, 234, 0.871);
+    margin-top: 350px;
+    animation: burchak 25s infinite ;
+
+}
+@keyframes burchak {
+    0%{
+        transform:  rotate(-360deg);
+        
+    }
+    10%{
+        margin-left: 50px;
+    }
+    20%{
+        margin-left: 90px;   
+    }
+    30%{
+        margin-left: 130px;
+    }
+    50%{
+        margin-left: 160px;
+    }
+    70%{
+        margin-left: 200px;
+    };
+    100%{
+        transform: rotate(0deg);
+    }
+}
